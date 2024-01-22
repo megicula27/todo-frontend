@@ -4,7 +4,7 @@ import App from "./App.jsx";
 import { useState } from "react";
 import { createContext } from "react";
 
-export const server = "http://localhost:4000/api/v1";
+export const server = "https://todoapp-8ppz.onrender.com/api/v1";
 const Context = createContext({ isLoggedIn: false });
 
 const AppWrapper = () => {
